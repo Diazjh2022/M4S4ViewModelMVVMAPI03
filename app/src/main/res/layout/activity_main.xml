@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnTraerNoticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traer Noticias" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="74dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="36dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtNoticias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Noticias" />
+
+
+
+</LinearLayout>
